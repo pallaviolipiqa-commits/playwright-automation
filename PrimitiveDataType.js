@@ -1,4 +1,4 @@
-"use strict";
+
 //Sample code demonstrating the use of primitive data types in TypeScript
 //String data type
 let userName = "Alice";
@@ -18,3 +18,9 @@ console.log("Is Admin?", isAdmin);
 console.log("User Symbol is", userSymbol.toString());
 console.log("User Null is", userNull);
 console.log("User Undefined is", userUndefined);
+console.log("Type of userName is", typeof userName);
+console.log("Type of userAge is", typeof userAge);
+console.log("Type of isAdmin is", typeof isAdmin);
+console.log("Type of userSymbol is", typeof userSymbol);
+console.log("Type of userNull is", typeof userNull);
+console.log("Type of userUndefined is", typeof userUndefined);
