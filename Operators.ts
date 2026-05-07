@@ -1,59 +1,60 @@
-let num1=10;
-let num2=20;
-let num3=30;
+let op_num1=10;
+let op_num2=20;
+let op_num3=30;
 
 //Arithmetic Operators
 console.log("Arithmetic Operators:---------------->");
-let sum=num1+num2;  
-let difference=num2-num1;
-let product=num1*num2;
-let quotient=num2/num1;
-let remainder=num2%num1;
+let op_sum= op_num1+op_num2;  
+let op_difference=op_num2-op_num1;
+let op_product=op_num1*op_num2;
+let op_quotient=op_num2/op_num1;
+let op_remainder=op_num2%op_num1;
 
-console.log("Sum:",sum);
-console.log("Difference:",difference);
-console.log("Product:",product);
-console.log("Quotient:",quotient);
-console.log("Remainder:",remainder);
+console.log("Sum:",op_sum);
+console.log("Difference:",op_difference);
+console.log("Product:",op_product);
+
+console.log("Quotient:",op_quotient);
+console.log("Remainder:",op_remainder);
 
 //Comparison Operators
 console.log("Comparison Operators:---------------->");
-console.log("Is num1 equal to num2?", num1 == num2);
-console.log("Is num1 not equal to num2?", num1 != num2);
-console.log("Is num1 greater than num2?", num1 > num2);
-console.log("Is num1 less than num2?", num1 < num2);
-console.log("Is num1 greater than or equal to num2?", num1 >= num2);
-console.log("Is num1 less than or equal to num2?", num1 <= num2);
+console.log("Is op_num1 equal to op_num2?", op_num1 == op_num2);
+console.log("Is op_num1 not equal to op_num2?", op_num1 != op_num2);
+console.log("Is op_num1 greater than op_num2?", op_num1 > op_num2);
+console.log("Is op_num1 less than op_num2?", op_num1 < op_num2);
+console.log("Is op_num1 greater than or equal to op_num2?", op_num1 >= op_num2);
+console.log("Is op_num1 less than or equal to op_num2?", op_num1 <= op_num2);
 
-//Logical Operators
+//Logical Operators             
 console.log("Logical Operators:---------------->");
-let isAdult: boolean = true;
-let hasPermission: boolean = false;
-console.log("Is user an adult and has permission?", isAdult && hasPermission);
-console.log("Is user an adult or has permission?", isAdult || hasPermission);
-console.log("Is user not an adult?", !isAdult);
+let op_isAdult: boolean = true;
+let op_hasPermission: boolean = false;
+console.log("Is user an adult and has permission?", op_isAdult && op_hasPermission);
+console.log("Is user an adult or has permission?", op_isAdult || op_hasPermission);
+console.log("Is user not an adult?", !op_isAdult);
 
 
 //Assignment Operators
 console.log("Assignment Operators:---------------->");
-let a=5;
-a += 10; // a = a + 10
-console.log("After += operator, a =", a);
-a -= 5; // a = a - 5
-console.log("After -= operator, a =", a);
-a *= 2; // a = a * 2
-console.log("After *= operator, a =", a);
-a /= 5; // a = a / 5
-console.log("After /= operator, a =", a);
-a %= 3; // a = a % 3
-console.log("After %= operator, a =", a);   
+let op_a=5;
+op_a += 10; // op_a = op_a + 10
+console.log("After += operator, op_a =", op_a);
+op_a -= 5; // op_a = op_a - 5
+console.log("After -= operator, op_a =", op_a);
+op_a *= 2; // op_a = op_a * 2
+console.log("After *= operator, op_a =", op_a);
+op_a /= 5; // op_a = op_a / 5
+console.log("After /= operator, op_a =", op_a);
+op_a %= 3; // op_a = op_a % 3
+console.log("After %= operator, op_a =", op_a);   
 
 //Unary Operators
 console.log("Unary Operators:---------------->");
-let b=10;
-console.log("Value of b before increment:", b);
-b++;
-console.log("Value of b after increment:", b);
-b--;
-console.log("Value of b after decrement:", b);
+let op_b=10;
+console.log("Value of op_b before increment:", op_b);
+op_b++;
+console.log("Value of op_b after increment:", op_b);
+op_b--;
+console.log("Value of op_b after decrement:", op_b);
 
